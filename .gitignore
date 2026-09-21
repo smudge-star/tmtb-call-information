@@ -1,0 +1,9 @@
+# Local runtime state and generated workbooks
+.tmtb_portfolio_backtest/
+outputs/
+tmp/
+__pycache__/
+*.py[cod]
+*.inspect.ndjson
+*.png
+

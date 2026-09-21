@@ -1,0 +1,828 @@
+[
+  {
+    "ticker": "AMZN",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "We continue to like AMZN as well. The stock is sneakily making new highs, we've gotten some 3p datapoints pointing to AWS acceleration and we think once a more sustainably turn in AWS happens, AMZN will be lumped in as one of the better AI plays.",
+    "signal": "Favorable medium-term view",
+    "qualifier": "Dependent on a sustainable AWS acceleration."
+  },
+  {
+    "ticker": "AVGO",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Out of these, we like having exposure to AVGO, MRVL, MDB, GTLB in our long-term AI bucket, in that order.",
+    "signal": "Preferred long-term AI exposure",
+    "qualifier": "Ranked first among the four names."
+  },
+  {
+    "ticker": "CFLT",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "We think the stock will remain a show-me story in the near-term, and think more interesting opportunities are DDOG and CFLT (which has a lot of room for the multiple to expand on accelerating growth).",
+    "signal": "More interesting software opportunity",
+    "qualifier": "Multiple-expansion thesis depended on accelerating growth."
+  },
+  {
+    "ticker": "CRM",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Along with MSFT and NOW, CRM continues to be one of our favorite LT sw compounders.",
+    "signal": "Favorite long-term software compounder",
+    "qualifier": "Quarterly guide was weak, but capital allocation improved."
+  },
+  {
+    "ticker": "CVNA",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "On CVNA, we had trimmed some early in the week given the big run up and were going to wait for the right time to add back if the opportunity presented itself. That opportunity came sooner than we expected and we wrote in the TMTB Chat Friday that we thought the set up for the next several days was good.",
+    "signal": "Good near-term setup",
+    "qualifier": "Position had been trimmed after a large run and the view was for the next several days."
+  },
+  {
+    "ticker": "DDOG",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "We think the stock will remain a show-me story in the near-term, and think more interesting opportunities are DDOG and CFLT.",
+    "signal": "More interesting software opportunity",
+    "qualifier": "Comparative preference versus SNOW."
+  },
+  {
+    "ticker": "ETSY",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Like MTCH, we think there is a decent long hook if investors can get comfortable with a sustainable data turn.",
+    "signal": "Conditional long opportunity",
+    "qualifier": "Required a sustainable data turn; bears still controlled the narrative."
+  },
+  {
+    "ticker": "GTLB",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Out of these, we like having exposure to AVGO, MRVL, MDB, GTLB in our long-term AI bucket, in that order.",
+    "signal": "Preferred long-term AI exposure",
+    "qualifier": "Ranked fourth among the four names."
+  },
+  {
+    "ticker": "HOOD",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "We wrote last week our two favorite horses to have exposure here are CVNA and HOOD, both which have good stories. CVNA was up 19% and HOOD up 15% this week, but we think they both still might have more juice left.",
+    "signal": "Favorite exposure / further upside",
+    "qualifier": "Stock had already risen 15% that week."
+  },
+  {
+    "ticker": "MDB",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Out of these, we like having exposure to AVGO, MRVL, MDB, GTLB in our long-term AI bucket, in that order.",
+    "signal": "Preferred long-term AI exposure",
+    "qualifier": "Ranked third among the four names."
+  },
+  {
+    "ticker": "META",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "With the stock at $500 and upside at $650 - $150 up and $40 down - we think the r/r is still exceptional.",
+    "signal": "Exceptional risk/reward",
+    "qualifier": "Valuation case used $650 upside and $460 downside."
+  },
+  {
+    "ticker": "MRVL",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Out of these, we like having exposure to AVGO, MRVL, MDB, GTLB in our long-term AI bucket, in that order.",
+    "signal": "Preferred long-term AI exposure",
+    "qualifier": "Ranked second among the four names."
+  },
+  {
+    "ticker": "MSFT",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Along with MSFT and NOW, CRM continues to be one of our favorite LT sw compounders.",
+    "signal": "Favorite long-term software compounder",
+    "qualifier": "Long-term view."
+  },
+  {
+    "ticker": "NOW",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Along with MSFT and NOW, CRM continues to be one of our favorite LT sw compounders.",
+    "signal": "Favorite long-term software compounder",
+    "qualifier": "Long-term view."
+  },
+  {
+    "ticker": "PINS",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "We continue to like the stock over the medium term and are using $35 as an add price, where we believe the r/r ($15 up / $5 down) is attractive.",
+    "signal": "Attractive risk/reward / add level",
+    "qualifier": "Price condition: about $35."
+  },
+  {
+    "ticker": "UBER",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "The stock is still only 17x '26 P/FCF while growing FCF 40%+, and compared to others in internet, that's a good value. We agree.",
+    "signal": "Good relative value",
+    "qualifier": "Longer-term valuation view."
+  },
+  {
+    "ticker": "W",
+    "file": "2024-03-04--tmtb-weekly-d26.md",
+    "quote": "Out of Z, OPEN, RDFN, W, we think W is the most interesting as has the most fixed cost leverage in their model, and any turn in data is likely to drive significant EBITDA upside. We think this merits at least a small starter position.",
+    "signal": "Small starter / preferred housing exposure",
+    "qualifier": "Data was still weak and the thesis depended on a turn."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2024-03-05--tmtb-eod-wrap-9eb.md",
+    "quote": "We bought some next wk calls as think sentiment has gotten too lopsided and this was the 'wtf going on' price action day. Nothing big - a 'B' idea.",
+    "signal": "Short-term calls bought",
+    "qualifier": "Small B-grade trade; TMTB still expected possible further weakness the next day."
+  },
+  {
+    "ticker": "PINS",
+    "file": "2024-03-07--tmtb-eod-wrap-d3e.md",
+    "quote": "We still like the story medium term over the next 3-6 months as 3p partnerships ramp, but n/t nothing too exciting to get longs excited.",
+    "signal": "Favorable medium-term view",
+    "qualifier": "Near-term underperformance was still possible."
+  },
+  {
+    "ticker": "ORCL",
+    "file": "2024-03-12--tmtb-eod-wrap-d98.md",
+    "quote": "We mentioned in our preview we'd want to add to our long positions if OCI beat given the good long-term story here - print and commentary so far confirmed that so we are sticking with our plan. Added around 126/127, but don't want to chase above $130 until we think about the new r/r.",
+    "signal": "Position added after OCI beat",
+    "qualifier": "Entry around $126-$127; would not chase above $130."
+  },
+  {
+    "ticker": "W",
+    "file": "2024-06-15--tmtb-eod-wrap-3f5.md",
+    "quote": "We nibbled some more on W today as stock has now almost completely filled the gap since early May and data seemed slightly better this week although q still tracking below numbers.",
+    "signal": "Position added",
+    "qualifier": "Quarterly data still tracked below expectations."
+  },
+  {
+    "ticker": "CHWY",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "We like the story and narrative here and think small long makes sense.",
+    "signal": "Small long",
+    "qualifier": "Based on improving trends, margin expansion and buybacks."
+  },
+  {
+    "ticker": "EXPE",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "As long as data continues to point to a beat on room nights, we think stock can continue to work.",
+    "signal": "Expected continued upside",
+    "qualifier": "Conditional on room-night data continuing to beat."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "With search tracking ahead now, we think path of least resistance is up. However, its not super exciting for us as the regulatory muddies stuff a bit for us so it's not as clear cut as we would like.",
+    "signal": "Expected upside",
+    "qualifier": "Lower conviction because of regulatory uncertainty."
+  },
+  {
+    "ticker": "META",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "With stock at $560, that's $110 up / $80 down so r/r still skewed to the upside, with a much higher probability of upside case versus down.",
+    "signal": "Risk/reward skewed to upside",
+    "qualifier": "Less attractive than at $500."
+  },
+  {
+    "ticker": "NOW",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "Some of our favorite names like ORCL NOW PLTR and SAP are all breaking out to new highs.",
+    "signal": "Favorite software name",
+    "qualifier": "Already breaking out to new highs."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "NVDA has been choppy, which is in line with what we expected, but we have a feeling as we start to head into Nov, investors will need to get involved again here heading into what is biggest product tech cycle in a long time.",
+    "signal": "Expected renewed buying",
+    "qualifier": "Timing centered on November and the Hopper/Blackwell product cycle."
+  },
+  {
+    "ticker": "ORCL",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "Some of our favorite names like ORCL NOW PLTR and SAP are all breaking out to new highs.",
+    "signal": "Favorite software name",
+    "qualifier": "Already breaking out to new highs."
+  },
+  {
+    "ticker": "PINS",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "We continue to like the medium-term story here and so lean positive into earnings, but aren't convinced yet and story post-earnings will still be a bit rough as comps continue to get tougher through early 2025.",
+    "signal": "Positive earnings lean",
+    "qualifier": "Low conviction with tougher comparisons ahead."
+  },
+  {
+    "ticker": "PLTR",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "Some of our favorite names like ORCL NOW PLTR and SAP are all breaking out to new highs.",
+    "signal": "Favorite software name",
+    "qualifier": "Already breaking out to new highs."
+  },
+  {
+    "ticker": "SAP",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "Some of our favorite names like ORCL NOW PLTR and SAP are all breaking out to new highs.",
+    "signal": "Favorite software name",
+    "qualifier": "Already breaking out to new highs."
+  },
+  {
+    "ticker": "TTD",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "TTD remains a favored long. We continue to like this as one of our fav medium term compounders.",
+    "signal": "Favored medium-term long",
+    "qualifier": "Stock was close to 52-week highs."
+  },
+  {
+    "ticker": "W",
+    "file": "2024-09-23--tmtb-weekly-b61.md",
+    "quote": "We have continued to hold a small starter here and have wanted to gross up if/when data improves. The data is pointing to inline right now, but with WayDay moved up to early Oct from late Oct last year, we think 3p data will show some nice numbers in early Oct so we have increased our exposure slightly here.",
+    "signal": "Exposure increased",
+    "qualifier": "Still a small position; thesis relied on improving third-party data."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2024-10-07--tmtb-weekly-c54.md",
+    "quote": "We wrote last week we expected to see some AI Semi weakness in the first 1-3 days and that would be a nice time to add as we came away feeling more bullish on AI semis. That ended up working well and we were able to add some NVDA, AMD, and MU.",
+    "signal": "Position added on weakness",
+    "qualifier": "Sector-level tactical setup."
+  },
+  {
+    "ticker": "MU",
+    "file": "2024-10-07--tmtb-weekly-c54.md",
+    "quote": "We wrote last week we expected to see some AI Semi weakness in the first 1-3 days and that would be a nice time to add as we came away feeling more bullish on AI semis. That ended up working well and we were able to add some NVDA, AMD, and MU.",
+    "signal": "Position added on weakness",
+    "qualifier": "Sector-level tactical setup."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2024-10-07--tmtb-weekly-c54.md",
+    "quote": "We wrote last week we expected to see some AI Semi weakness in the first 1-3 days and that would be a nice time to add as we came away feeling more bullish on AI semis. That ended up working well and we were able to add some NVDA, AMD, and MU.",
+    "signal": "Position added on weakness",
+    "qualifier": "Sector-level tactical setup."
+  },
+  {
+    "ticker": "CFLT",
+    "file": "2025-02-18--tmtb-weekly-e65.md",
+    "quote": "We like DDOG long-term, but near-term we think stock remains in the HF funding short camp versus more near-term ownable names like SNOW, NET, and CFLT.",
+    "signal": "More ownable near-term exposure",
+    "qualifier": "Comparative preference versus DDOG."
+  },
+  {
+    "ticker": "DDOG",
+    "file": "2025-02-18--tmtb-weekly-e65.md",
+    "quote": "We like DDOG long-term as think observability tailwinds should allow growth to re-accelerate at some point in '25, but near-term we think stock remains in the HF funding short camp versus more near-term ownable names like SNOW, NET, and CFLT.",
+    "signal": "Favorable long-term view",
+    "qualifier": "Near-term setup was weaker than SNOW, NET and CFLT."
+  },
+  {
+    "ticker": "NET",
+    "file": "2025-02-18--tmtb-weekly-e65.md",
+    "quote": "We like DDOG long-term, but near-term we think stock remains in the HF funding short camp versus more near-term ownable names like SNOW, NET, and CFLT.",
+    "signal": "More ownable near-term exposure",
+    "qualifier": "Comparative preference versus DDOG."
+  },
+  {
+    "ticker": "SNOW",
+    "file": "2025-02-18--tmtb-weekly-e65.md",
+    "quote": "We like DDOG long-term, but near-term we think stock remains in the HF funding short camp versus more near-term ownable names like SNOW, NET, and CFLT.",
+    "signal": "More ownable near-term exposure",
+    "qualifier": "Comparative preference versus DDOG."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2025-03-01--tmtb-eod-wrap-c93.md",
+    "quote": "NVDA +4% after dipping below $120 for a bit, which is the price where we think r/r gets really interesting.",
+    "signal": "Risk/reward becomes attractive",
+    "qualifier": "Price condition: below $120."
+  },
+  {
+    "ticker": "NET",
+    "file": "2025-04-16--tmtb-eod-wrap-052.md",
+    "quote": "From a high-level narrative we've called out how we like PLTR and NET also exposed to AI tailwinds.",
+    "signal": "Preferred AI narrative exposure",
+    "qualifier": "High-level narrative view during tariff volatility."
+  },
+  {
+    "ticker": "PLTR",
+    "file": "2025-04-16--tmtb-eod-wrap-052.md",
+    "quote": "From a high-level narrative we've called out how we like PLTR and NET also exposed to AI tailwinds. PLTR is particularly interesting to me purely from a high-level narrative perspective.",
+    "signal": "Preferred AI narrative exposure",
+    "qualifier": "High-level narrative view during tariff volatility."
+  },
+  {
+    "ticker": "RBLX",
+    "file": "2025-04-24--tmtb-eod-wrap-6f7.md",
+    "quote": "In the meantime, we still like RBLX and TTWO for their idiosyncratic and fundamental stories.",
+    "signal": "Favorable fundamental view",
+    "qualifier": "TMTB had recently taken profits in the broader safe-haven trade."
+  },
+  {
+    "ticker": "TTWO",
+    "file": "2025-04-24--tmtb-eod-wrap-6f7.md",
+    "quote": "In the meantime, we still like RBLX and TTWO for their idiosyncratic and fundamental stories.",
+    "signal": "Favorable fundamental view",
+    "qualifier": "TMTB had recently taken profits in the broader safe-haven trade."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2025-04-28--tmtb-weekly-f89.md",
+    "quote": "We think r/r skews to the upside with $40-50 up and $15 down. While we think stock might be a bit choppy and won't run away, we think the path of least resistance for now is up.",
+    "signal": "Risk/reward skewed to upside",
+    "qualifier": "B/B- idea; data needed to continue tracking well."
+  },
+  {
+    "ticker": "RBLX",
+    "file": "2025-05-02--tmtb-eod-wrap-d0b.md",
+    "quote": "We continue to like RBLX's medium term monetization and secular bull case here. Barring a market pullback, we see no reason why stock shouldn't be hitting new highs soon.",
+    "signal": "Medium-term bull case / expected highs",
+    "qualifier": "Conditional on no broader market pullback."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2025-05-07--tmtb-morning-wrap-8f8.md",
+    "quote": "We like the r/r here as don't think stock gets back under $90 unless we see another market meltdown. For now, just a very small starter - still feeling out the right timing, setup and risk/reward on this one.",
+    "signal": "Small starter / favorable risk-reward",
+    "qualifier": "Low initial sizing and timing uncertainty."
+  },
+  {
+    "ticker": "RBLX",
+    "file": "2025-05-20--tmtb-eod-wrap-585.md",
+    "quote": "On a name like this where we like the medium/long term drivers and where valuation is less relevant, I typically ride it until the dataset changes. None of those seem at risk near-term.",
+    "signal": "Hold while data remains intact",
+    "qualifier": "TMTB noted taking some profit would also be reasonable after a 60% run."
+  },
+  {
+    "ticker": "PINS",
+    "file": "2025-06-04--tmtb-eod-wrap-947.md",
+    "quote": "PINS +4% as JPM upgraded saying PINS is effectively using full-funnel ad tools and automation to tap into broad ad budgets and risk/reward attractive. We agree on r/r.",
+    "signal": "Favorable risk/reward",
+    "qualifier": "TMTB agreed with JPMorgan's risk/reward view."
+  },
+  {
+    "ticker": "RDDT",
+    "file": "2025-06-25--tmtb-morning-wrap-6ef.md",
+    "quote": "Part of the reason we thought the long set up was good on RDDT was our view positive quarterly checks should continue into the print - these are two of them and we should get more.",
+    "signal": "Good long setup",
+    "qualifier": "Dependent on continued positive checks into earnings."
+  },
+  {
+    "ticker": "RDDT",
+    "file": "2025-07-29--tmtb-eod-wrap-a37.md",
+    "quote": "Decent set up as plenty still short here and revenues likely to beat and raise - as long as they can thread the needle on the call and help turn narrative their way, think stock can work. We likely go in with small-sized calls into the print.",
+    "signal": "Small calls / decent earnings setup",
+    "qualifier": "Event trade conditional on management changing the narrative."
+  },
+  {
+    "ticker": "PYPL",
+    "file": "2025-07-29--tmtb-morning-wrap-85e.md",
+    "quote": "I'll likely keep my small long for now given 3p data showing accelerating branded and Venmo growth in July and this should be trough growth and margin quarter. Again, B/B- idea here, nothing too exciting.",
+    "signal": "Small long maintained",
+    "qualifier": "B/B- conviction after a mixed quarter."
+  },
+  {
+    "ticker": "AMZN",
+    "file": "2025-08-01--tmtb-morning-wrap-8c8.md",
+    "quote": "From a long-term perspective, we think the stock is fine and AMZN remains one of our favorite compounders as operating income ramp bull case stays intact.",
+    "signal": "Favorite long-term compounder",
+    "qualifier": "Long-term view despite near-term AWS disappointment."
+  },
+  {
+    "ticker": "SHOP",
+    "file": "2025-08-07--tmtb-eod-wrap-b90.md",
+    "quote": "We have no great read on the quarter or near-term, but we own a small position in our long-term account and are believers in the AI margin and GPV tailwinds that SHOP should begin to more significantly benefit from in '26.",
+    "signal": "Small long-term position",
+    "qualifier": "No strong near-term view; thesis centered on 2026."
+  },
+  {
+    "ticker": "PANW",
+    "file": "2025-08-19--tmtb-morning-wrap-b03.md",
+    "quote": "We aren't involved but tend to be sympathetic to the bull case. Stock hasn't done anything in over a year and we think accelerating RPO and NGS ARR plus an improving platformization and AI narrative likely makes the path of least resistance up over the next 6-12 months.",
+    "signal": "Expected upside over 6-12 months",
+    "qualifier": "TMTB was not in the position."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2025-08-21--tmtb-eod-wrap-ef7.md",
+    "quote": "AMD -1% - will continue nibble under $160 here, but want to be patient.",
+    "signal": "Nibbling below price level",
+    "qualifier": "Price condition: below $160; patient sizing."
+  },
+  {
+    "ticker": "APP",
+    "file": "2025-08-25--tmtb-weekly-nvda-preview.md",
+    "quote": "Some of the longs we like such as RDDT, APP, U, and RBLX should outperform even in an environment where IWMs rally.",
+    "signal": "Liked long / expected outperformance",
+    "qualifier": "Part of a balanced factor-exposure view."
+  },
+  {
+    "ticker": "RBLX",
+    "file": "2025-08-25--tmtb-weekly-nvda-preview.md",
+    "quote": "Some of the longs we like such as RDDT, APP, U, and RBLX should outperform even in an environment where IWMs rally.",
+    "signal": "Liked long / expected outperformance",
+    "qualifier": "Part of a balanced factor-exposure view."
+  },
+  {
+    "ticker": "RDDT",
+    "file": "2025-08-25--tmtb-weekly-nvda-preview.md",
+    "quote": "Some of the longs we like such as RDDT, APP, U, and RBLX should outperform even in an environment where IWMs rally.",
+    "signal": "Liked long / expected outperformance",
+    "qualifier": "Part of a balanced factor-exposure view."
+  },
+  {
+    "ticker": "U",
+    "file": "2025-08-25--tmtb-weekly-nvda-preview.md",
+    "quote": "Some of the longs we like such as RDDT, APP, U, and RBLX should outperform even in an environment where IWMs rally.",
+    "signal": "Liked long / expected outperformance",
+    "qualifier": "Part of a balanced factor-exposure view."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2025-08-28--tmtb-morning-wrap-a52.md",
+    "quote": "The risk/reward here looks great: 25x $7 in EPS is $175 right where stock is right now. 30x $7.5 = $225, or 30% upside.",
+    "signal": "Great risk/reward",
+    "qualifier": "Valuation range: $175 downside anchor and $225 upside case."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2025-09-04--tmtb-eod-wrap-gtlb-crm-hpe-crdo-first.md",
+    "quote": "Still it has momentum on its side and stock still remains under owned among long-onlys. We'll stay with our small long and be a bit flexible with the multiple as long as 3p search continues to track well.",
+    "signal": "Small long maintained",
+    "qualifier": "Conditional on third-party search data."
+  },
+  {
+    "ticker": "HPE",
+    "file": "2025-09-04--tmtb-morning-wrap-9ba.md",
+    "quote": "We continue to like the set up here heading into Oct analyst day and think there is room for HPE to re-rate higher as pro-forma company significantly more weighted to networking than standalone.",
+    "signal": "Favorable setup / rerating potential",
+    "qualifier": "Catalyst: October analyst day."
+  },
+  {
+    "ticker": "RDDT",
+    "file": "2025-09-20--tmtb-eod-wrap-1f7.md",
+    "quote": "This is the main reason we continue to have a small position here and think path of least resistance is higher.",
+    "signal": "Small position / expected upside",
+    "qualifier": "Licensing upside was the main thesis; deal-renewal timing remained uncertain."
+  },
+  {
+    "ticker": "SHOP",
+    "file": "2025-10-02--tmtb-eod-wrap-ff0.md",
+    "quote": "We really like the LT AI tailwinds on this name. 3p data tracking decently for the quarter as well.",
+    "signal": "Favorable long-term AI view",
+    "qualifier": "Long-term view supported by decent quarterly third-party data."
+  },
+  {
+    "ticker": "NFLX",
+    "file": "2025-10-08--tmtb-eod-wrap-595.md",
+    "quote": "Despite not being super exciting and without a great short-term hook, Q4 and Q1 are usually the best times to own NFLX. We don't think it's a bad spot to start nibbling.",
+    "signal": "Start nibbling",
+    "qualifier": "No strong short-term catalyst; seasonal ownership view."
+  },
+  {
+    "ticker": "HPE",
+    "file": "2025-10-16--tmtb-morning-wrap-a78.md",
+    "quote": "We still think r/r here at 22-23 very good ($2-3 down / $10+ up), especially with CPU server side of the business likely doing better than expected.",
+    "signal": "Very good risk/reward",
+    "qualifier": "Catalyst had passed and TMTB flagged possible thesis creep."
+  },
+  {
+    "ticker": "TSM",
+    "file": "2025-10-16--tmtb-morning-wrap-a78.md",
+    "quote": "Nothing to change bulls minds here - all AI roads lead to TSM and we think this continues to be a must own and one of the best 'sleep well at night' AI plays.",
+    "signal": "Must-own AI exposure",
+    "qualifier": "Long-term core exposure."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2025-11-05--tmtb-morning-wrap-9a9.md",
+    "quote": "We continue to think r/r skews favorably to the up.",
+    "signal": "Risk/reward skewed up",
+    "qualifier": "Crowded positioning and near-term margin concerns remained."
+  },
+  {
+    "ticker": "PINS",
+    "file": "2025-11-05--tmtb-morning-wrap-9a9.md",
+    "quote": "Our view: Downside does appear limited here and r/r skewed to the up.",
+    "signal": "Limited downside / risk-reward up",
+    "qualifier": "TMTB still agreed with several bear concerns."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2025-11-20--tmtb-morning-wrap-5ea.md",
+    "quote": "While we're unsure of the near-term trajectory, what we do know is that under $200, we think the r/r is very attractive and there are no signs of GPU demand slowing any time soon - we stay the course.",
+    "signal": "Very attractive risk/reward",
+    "qualifier": "Price condition: below $200; near-term trajectory uncertain."
+  },
+  {
+    "ticker": "NET",
+    "file": "2026-03-03--tmtb-eod-wrap-mdb-first-takes.md",
+    "quote": "We don’t mind going back here at our entry price, especially on a highly liquid stock like this that has what we consider our favorite narrative in sw (best agentic AI beneficiary) and potential to trend significantly.",
+    "signal": "Favorable entry / narrative",
+    "qualifier": "Sizing stays smaller due to weak demand for high-valuation software."
+  },
+  {
+    "ticker": "NBIS",
+    "file": "2026-03-12--tmtb-eod-wrap-d18.md",
+    "quote": "Set up sounds good here.",
+    "signal": "Good setup",
+    "qualifier": "Written after the Nvidia partnership announcement and a range breakout."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-03-19--morning-wrap-micron-mu-takeaways.md",
+    "quote": "We prefer Samsung/SNDK (on SNDK, we see more room for earnings revisions/GM upside at this point and like the structural narrative better — that’s a view we have heard investors come around to more recently (including some overnight), which is a change from a couple months ago where the narrative was DRAM place to be given it’s a better biz - remember those Gavin B. tweets?).",
+    "signal": "Preferred long exposure",
+    "qualifier": "Preference versus MU; includes Samsung as another preferred name."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2026-03-20--tmtb-eod-wrap-a27.md",
+    "quote": "AMD +3% seems to get bought every time it dips under $200 given what we think is a pretty juicy r/r despite the slightly muddied competitive narrative.",
+    "signal": "Juicy risk/reward",
+    "qualifier": "Price condition: below $200; competitive narrative remains muddied."
+  },
+  {
+    "ticker": "MU",
+    "file": "2026-03-20--tmtb-eod-wrap-a27.md",
+    "quote": "MU -4% despite was objectively much better #s as noise overnight centered on “peak GMs” and FY26/FY27 capex raises being first step towards overbuild; still we think memory trade is fine and MU r/r under $500 skews up (bulls here at $120+ for CY27 EPS).",
+    "signal": "Risk/reward skews up",
+    "qualifier": "Price condition: below $500."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-03-20--tmtb-eod-wrap-a27.md",
+    "quote": "NVDA -1% also good r/r, but continues to be range bound.",
+    "signal": "Good risk/reward",
+    "qualifier": "Range-bound price action."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-03-20--tmtb-eod-wrap-a27.md",
+    "quote": "In particular - as we mentioned in our morning wrap - we prefer SNDK +2.5% even more after the MU print as 1) MU print pointed out NAND upside and 2) the print — and overnight conversations among investors — made clear that SNDK still has more room for earnings revisions/GM upside at this point in the cycle.",
+    "signal": "Preferred exposure / estimate upside",
+    "qualifier": "Preference strengthened after MU earnings."
+  },
+  {
+    "ticker": "AMD",
+    "file": "2026-03-26--tmtb-eod-wrap-a-day-of-activation.md",
+    "quote": "Couple all those with a juicy r/r for both INTC (under $45) and AMD (near $200) and charts that had just crossed above short-term moving averages, and the setting was ripe for the moves we saw today: ARM +16%; AMD +7%; INTC +7%.",
+    "signal": "Juicy risk/reward / technical activation",
+    "qualifier": "AMD near $200; the move had already started that day."
+  },
+  {
+    "ticker": "HPE",
+    "file": "2026-03-26--tmtb-eod-wrap-a-day-of-activation.md",
+    "quote": "The thesis has been there for a while now: great r/r in the low 20s & stand-alone JNPR 50% of EBIT and would be trading 20x+ given scale out / optical buildout router exposure & mist-share gains (simplistically speaking).",
+    "signal": "Great risk/reward",
+    "qualifier": "Price condition: low $20s; discussed after a roughly 15% two-day move."
+  },
+  {
+    "ticker": "INTC",
+    "file": "2026-03-26--tmtb-eod-wrap-a-day-of-activation.md",
+    "quote": "Couple all those with a juicy r/r for both INTC (under $45) and AMD (near $200) and charts that had just crossed above short-term moving averages, and the setting was ripe for the moves we saw today: ARM +16%; AMD +7%; INTC +7%.",
+    "signal": "Juicy risk/reward / technical activation",
+    "qualifier": "INTC below $45; the move had already started that day."
+  },
+  {
+    "ticker": "U",
+    "file": "2026-03-27--tmtb-morning-wrap-9a0.md",
+    "quote": "We tend to side with the bulls and in a different market environment, would say overall set up sounds decent…",
+    "signal": "Decent setup",
+    "qualifier": "Explicitly conditioned on a different market environment."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-03-30--tmtb-weekly-d5c.md",
+    "quote": "We like the r/r below $600 (<5x our $125 CY26 #), but again in no rush to add gross here (or many places) right now unless we get a great set up on the chart or clearing event.",
+    "signal": "Favorable risk/reward",
+    "qualifier": "Below $600; not ready to add without a chart setup or clearing event."
+  },
+  {
+    "ticker": "TTWO",
+    "file": "2026-03-31--tmtb-eod-wrap-4ff.md",
+    "quote": "Stock hasn’t been acting well (mobile data has been weaker as of late), but we typically like adding at spots like this near support, where we have a clear line in the sand and good r/r.",
+    "signal": "Good risk/reward near support",
+    "qualifier": "TMTB also said the chart could go either way."
+  },
+  {
+    "ticker": "APP",
+    "file": "2026-04-01--tmtb-eod-wrap-824.md",
+    "quote": "Added a little hear given the great spot on the chart + ecom/gaming checks continue to sound good outside the negative read Clev put out last week.",
+    "signal": "Position added / strong chart spot",
+    "qualifier": "Small add; one negative channel read remained."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-04-01--tmtb-eod-wrap-824.md",
+    "quote": "We even finally added some NVDA today as the chart was showing our preferred scenario we have been writing about: a dip below the range and break back above, providing a “false break” and good r/r entry (we can cut if it breaks back below that range)",
+    "signal": "Position added / good risk-reward entry",
+    "qualifier": "Risk line: cut if price breaks back below the range."
+  },
+  {
+    "ticker": "U",
+    "file": "2026-04-01--tmtb-eod-wrap-824.md",
+    "quote": "A little late despite our view of the positive set up after earnings, but chart finally provided a good r/r spot (along with us finally dipping our risk does into the water overall).",
+    "signal": "Position added / good risk-reward spot",
+    "qualifier": "TMTB said it was a little late after earnings."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-04-10--tmtb-eod-wrap-nvda-nvidia-aapl-apple.md",
+    "quote": "Having the HOT AI SUMMER vibes finally back, knowing how tech investors love to move into remaining laggards and having an analog give us confirmation of what could potentially happen, we think this could be NVDA’s time.",
+    "signal": "Medium-term long thesis",
+    "qualifier": "TMTB also noted NVDA had repeatedly disappointed when a bid seemed likely."
+  },
+  {
+    "ticker": "ORCL",
+    "file": "2026-04-14--tmtb-eod-wrap-dde.md",
+    "quote": "We added a couple software longs (just dipping our toes), including ORCL which seems like best situated narrative-wise to play catch up to the rest of the AI trade.",
+    "signal": "Position added / catch-up trade",
+    "qualifier": "Small initial position; broader software view was not strongly bullish."
+  },
+  {
+    "ticker": "TTWO",
+    "file": "2026-04-16--tmtb-eod-wrap-794.md",
+    "quote": "We still like it here",
+    "signal": "Favorable view",
+    "qualifier": "Short statement in the TTWO bullet."
+  },
+  {
+    "ticker": "MU",
+    "file": "2026-04-23--tmtb-eod-wrap-b48.md",
+    "quote": "TMTB readers know I like a good spot on the chart for a good r/r trade when we’re in an AI semi bull market. This was one of them as MU popped above resistance.",
+    "signal": "Position bought / good risk-reward trade",
+    "qualifier": "Breakout above resistance; TMTB disclosed buying that day."
+  },
+  {
+    "ticker": "INTC",
+    "file": "2026-04-24--tmtb-morning-wrap-0e6.md",
+    "quote": "We moved our feet way too slow, but we think this keeps going higher and see if we can get a good entry point.",
+    "signal": "Expected upside / seeking entry",
+    "qualifier": "No entry yet; valuation framework described as murky."
+  },
+  {
+    "ticker": "AMZN",
+    "file": "2026-04-30--tmtb-morning-wrap-google-amazon-msft.md",
+    "quote": "We love the narrative here and think it’s a must own in LT book, but think AMZN presents a higher upside bull case and better “rate of change” narrative (more below)…",
+    "signal": "Higher-upside preference",
+    "qualifier": "Comparative preference versus GOOGL."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2026-04-30--tmtb-morning-wrap-google-amazon-msft.md",
+    "quote": "We love the narrative here and think it’s a must own in LT book, but think AMZN presents a higher upside bull case and better “rate of change” narrative (more below)…",
+    "signal": "Must-own long-term view",
+    "qualifier": "TMTB preferred AMZN for greater upside."
+  },
+  {
+    "ticker": "NET",
+    "file": "2026-05-05--tmtb-eod-wrap-c7a.md",
+    "quote": "We prefer ORCL/NET here as feel like latter has most torque in terms of narrative rate of change while latter remains one of best positioned to benefit from AI Agentic tailwinds.",
+    "signal": "Preferred software exposure",
+    "qualifier": "Sentence contains a likely typo: “latter” used twice."
+  },
+  {
+    "ticker": "ORCL",
+    "file": "2026-05-05--tmtb-eod-wrap-c7a.md",
+    "quote": "We prefer ORCL/NET here as feel like latter has most torque in terms of narrative rate of change while latter remains one of best positioned to benefit from AI Agentic tailwinds.",
+    "signal": "Preferred software exposure",
+    "qualifier": "Sentence contains a likely typo: “latter” used twice."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-05-07--tmtb-eod-wrap-b96.md",
+    "quote": "I re-bought back some NVDA for another shot at the medium-term trade (still there in our LT books).",
+    "signal": "Medium-term position re-entered",
+    "qualifier": "Also retained in the long-term book."
+  },
+  {
+    "ticker": "DDOG",
+    "file": "2026-05-12--tmtb-eod-wrap-fad.md",
+    "quote": "Fourth, assuming similar cadence of beats, sets up for the rest of the year for potentially accelerating y/y growth against harder comps (one our favorite set ups)…",
+    "signal": "Favorite setup / acceleration",
+    "qualifier": "Assumes a similar cadence of earnings beats."
+  },
+  {
+    "ticker": "AAPL",
+    "file": "2026-05-13--tmtb-eod-wrap-5c4.md",
+    "quote": "AAPL +70bps to new highs as we are now less than 1 month out from WWDC - set up here seems decent with iPhone builds increasing, China share better, WWDC/new form factor catalysts in next 3-4 months.",
+    "signal": "Decent setup / catalysts",
+    "qualifier": "Catalysts expected over the following 3-4 months."
+  },
+  {
+    "ticker": "SNOW",
+    "file": "2026-05-28--tmtb-morning-wrap-109.md",
+    "quote": "We think path of least resistance likely higher here as SNOW still 15% below 2025 lows.",
+    "signal": "Expected upside",
+    "qualifier": "Written after a roughly 38% post-earnings move."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-05-29--tmtb-eod-wrap-88c.md",
+    "quote": "However, unlike our last ST/MT long NVDA laggard call in early April, not feeling as strong about this one intuitively, but chart at least allows for a pretty good r/r entry.",
+    "signal": "Good tactical risk/reward entry",
+    "qualifier": "Lower conviction; described as tactical rather than fundamental."
+  },
+  {
+    "ticker": "MDB",
+    "file": "2026-05-29--tmtb-morning-wrap-d69.md",
+    "quote": "Overall, we think this was a solid print, the stock’s likely path is up, and the set up going forward is decent to good, but think narrative around DDOG and SNOW better in the AI consumption space.",
+    "signal": "Decent-to-good setup / expected upside",
+    "qualifier": "TMTB preferred the DDOG and SNOW narratives."
+  },
+  {
+    "ticker": "GOOGL",
+    "file": "2026-06-12--tmtb-eod-wrap-adbe-first-take.md",
+    "quote": "GOOGL +40bps after being down close to 3%, dipping below $350 where we think the r/r starts to get more interesting (~15% upside to $400, which is 25x CY $15 valuation most buyside keyed in on).",
+    "signal": "Risk/reward becoming attractive",
+    "qualifier": "Price condition: below $350."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-07-08--tmtb-eod-wrap-6ac.md",
+    "quote": "I know this all sounds vague, but to put some more practical thoughts behind it: like we said yesterday, it means we are sharpening our r/r math on certain names (for example, SNDK hit $1,500 intraday which is 5x buyside’s $300 in CY27 EPS, the multiple bears typically want to throw on it…we think that’s a clean round-number that vibes with the r/r math to get more aggressive).",
+    "signal": "Risk/reward level to get more aggressive",
+    "qualifier": "Reference level: $1,500."
+  },
+  {
+    "ticker": "META",
+    "file": "2026-07-10--tmtb-eod-wrap-meta-in-the-spotlight.md",
+    "quote": "Still, we think this week’s model releases from MSL and last week’s article about monetizing some compute likely limit the downside here and makes the r/r more attractive, which jives with the move today which was likely helped by some short covering.",
+    "signal": "More attractive risk/reward",
+    "qualifier": "More inroads and an acceleration in advertising were still needed."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-07-16--tmtb-eod-wrap-cd8.md",
+    "quote": "SNDK bouncing off that $1,500 level again; we think that’s a decent r/r level and want to see it hold.",
+    "signal": "Decent risk/reward level",
+    "qualifier": "Reference level: $1,500; needed to hold."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-07-28--tmtb-eod-wrap-236.md",
+    "quote": "Catalyst + decent r/r + fade sentiment/price extreme — prob makes sense for another short-term long trade if we stick to our process.",
+    "signal": "Short-term long trade",
+    "qualifier": "Conditional on TMTB’s process after a roughly 50% decline from the peak."
+  },
+  {
+    "ticker": "STX",
+    "file": "2026-07-28--tmtb-eod-wrap-236.md",
+    "quote": "Still a pair of our favorite names despite the pullback and think should o/p in a choppy environment.",
+    "signal": "Favorite name / expected outperformance",
+    "qualifier": "Statement covers both STX and WDC."
+  },
+  {
+    "ticker": "WDC",
+    "file": "2026-07-28--tmtb-eod-wrap-236.md",
+    "quote": "Still a pair of our favorite names despite the pullback and think should o/p in a choppy environment.",
+    "signal": "Favorite name / expected outperformance",
+    "qualifier": "Statement covers both STX and WDC."
+  },
+  {
+    "ticker": "META",
+    "file": "2026-07-30--tmtb-morning-wrap-79d.md",
+    "quote": "Overall, we think r/r still skews up (as it has for a while), but we thought the print was going to be better and was hoping Zuck and co would sound more enthused and give more detail about some of the key items bulls wanted to hear about (capacity leasing, model improvements, etc).",
+    "signal": "Risk/reward skews up",
+    "qualifier": "Near-term chop expected; TMTB retained it in the long-term book."
+  },
+  {
+    "ticker": "ORCL",
+    "file": "2026-08-04--tmtb-eod-wrap-877.md",
+    "quote": "We posted the chart in this morning in the Slack — nice easy spot to get long with a nice clean line in the sand (“false breakdown”) to get stopped out if the trade doesn’t move the way we like it to.",
+    "signal": "Easy long setup / defined stop",
+    "qualifier": "TMTB said it did not have high hopes but would take the trade."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-08-06--tmtb-morning-wrap-sandisk-sndk-dash.md",
+    "quote": "We feel like we need to keep some long exposure in our LT book given the risk/reward.",
+    "signal": "Long-term exposure / favorable risk-reward",
+    "qualifier": "Likely range-bound near term; better pricing checks needed for a medium-term trade."
+  },
+  {
+    "ticker": "SNDK",
+    "file": "2026-08-17--tmtb-weekly-spcx-set-up.md",
+    "quote": "With some narrative issues resolved and spot NAND prices now trending up again, we think path of least resistance leans up here near-term with range prob $1,450 - $1900.",
+    "signal": "Near-term upside range",
+    "qualifier": "Expected range: $1,450-$1,900."
+  },
+  {
+    "ticker": "META",
+    "file": "2026-08-26--tmtb-eod-wrap-0ab.md",
+    "quote": "About the 5th or 6th time META has bounced of $550 and even the bears I talk to have to concede r/r pretty skewed to upside there as you’re getting META at 16x street numbers and <15x buyside’s $35-36, before factoring in any contribution from selling compute.",
+    "signal": "Risk/reward skewed to upside",
+    "qualifier": "Reference level: about $550."
+  },
+  {
+    "ticker": "NVDA",
+    "file": "2026-08-27--tmtb-morning-wrap-9e7.md",
+    "quote": "While some of those debates remain and will remain likely keeping some in the funding short camp, we think stock is too cheap and has too many tailwinds going for it not to own in LT book.",
+    "signal": "Too cheap not to own",
+    "qualifier": "Long-term view; bear debates remained unresolved."
+  },
+  {
+    "ticker": "SNOW",
+    "file": "2026-09-03--tmtb-morning-wrap-a3e.md",
+    "quote": "We stick to that view and think SNOW is the cleanest sw story to own (which is why it’s also the most crowded and most expensive).",
+    "signal": "Preferred ownership view",
+    "qualifier": "Crowded and expensive."
+  },
+  {
+    "ticker": "META",
+    "file": "2026-09-09--tmtb-morning-wrap-7be.md",
+    "quote": "Still early, but we like what we’re seeing and think today’s +4% should at least hold (unless market weakness throws a wrench in things).",
+    "signal": "Positive near-term view",
+    "qualifier": "Early-stage view; subject to overall market weakness."
+  }
+]

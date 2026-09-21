@@ -1,0 +1,7 @@
+interface:
+  display_name: "TMTB Portfolio Backtest"
+  short_description: "Refresh TMTB calls and backtest vs QQQ"
+  default_prompt: "Use $tmtb-portfolio-backtest to refresh the TMTB signals and generate today's portfolio backtest workbook."
+
+policy:
+  allow_implicit_invocation: true
