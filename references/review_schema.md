@@ -49,3 +49,13 @@ python "$SKILL_ROOT\scripts\refresh.py" `
   --project-root (Get-Location) --source-dir .\TMTB `
   --python-deps .\tmp\pydeps
 ```
+
+When `refresh.py` finds new or changed Markdown files it also writes
+`review_template.json`. Its `files` array is the authoritative checklist: the
+review JSON must include exactly those files (including empty `signals` arrays)
+and the exact SHA-256 values. After applying, `pending_review.json` must show
+zero changed or removed files before a backtest workbook is generated.
+
+The daily audit can extend beyond the last Yahoo close. Rows marked `No Yahoo
+close; NAV carried forward` contain no fabricated price or return; planned
+tickers, planned cash and pending entry dates are shown in separate columns.

@@ -59,7 +59,8 @@ SKILL_ROOT = the directory containing this SKILL.md
    there are changed files, run `extract_candidates.py`, read every changed
    Markdown file in detail, and choose only ticker-specific sentences that
    clearly imply a favorable trading opportunity. The extractor is a shortlist,
-   not an automatic classifier.
+   not an automatic classifier. Do not stop at `review_required`: create and
+   apply the review in the same skill run before claiming completion.
 
 3. Create a review JSON with this shape (one strongest signal per ticker per
    file; an empty `signals` array means the file has no qualifying call):
@@ -84,9 +85,13 @@ SKILL_ROOT = the directory containing this SKILL.md
    }
    ```
 
-   Quotes must be exact after whitespace normalization. Apply the review with
-   `manage_state.py apply`; it verifies the file hash and refuses stale or
-   duplicate reviews. Use `apply_patch` when creating this JSON file.
+   Quotes must be exact after whitespace normalization. Include every item in
+   `pending_review.json`, including files with zero qualifying signals, and copy
+   the exact current SHA-256. Apply the review with `manage_state.py apply`; it
+   verifies the file hash and refuses stale or duplicate reviews. Use
+   `apply_patch` when creating this JSON file. Then rescan and verify that
+   `pending_review.json` has zero changed/removed files and that the reviewed
+   signal ledger has been updated before running the backtest.
 
 4. Run the daily refresh. It re-downloads current Yahoo history even when no
    new calls were found and creates a new, timestamped workbook under
@@ -99,8 +104,21 @@ SKILL_ROOT = the directory containing this SKILL.md
    ```
 
    If the command reports `review_required`, complete the review JSON and rerun
-   it with `--review-file PATH_TO_REVIEW.json`. Existing output files are never
-   replaced; a numeric suffix is added if the same timestamp already exists.
+   it with `--review-file PATH_TO_REVIEW.json`; the output also provides a
+   `review_template.json` containing every file that must be accounted for.
+   Existing output files are never replaced; a numeric suffix is added if the
+   same timestamp already exists.
+
+   The workbook rebuilds `Signals` and `Files reviewed` from the current
+   reviewed ledger and manifest on every run. New reviewed calls and newly
+   reviewed files must therefore appear in those sheets; do not retain a stale
+   template snapshot.
+
+   `Backtest daily` extends through the as-of date even when Yahoo has not yet
+   published that day's close. Such rows are labeled `No Yahoo close; NAV
+   carried forward`, have blank prices and zero realized return, and show
+   `planned` tickers/cash plus pending entry dates separately. Pending entries
+   are never included in realized performance until a price is available.
 
 ## Review discipline
 
@@ -123,11 +141,16 @@ call audit on the right side of `Backtest daily`. Confirm that:
 
 - all included entry dates are after call dates;
 - maximum observed weights are at or below 20% and cash is non-negative;
-- the check block reports PASS;
+- the check block reports PASS, including current signal/file counts and a
+  final daily date equal to the as-of date;
+- `Signals` reconciles to the reviewed signal ledger and `Files reviewed`
+  reconciles to the reviewed manifest;
+- no-close rows keep realized NAV unchanged, leave prices blank, and disclose
+  the planned basket (ticker plus weight) and every pending entry date;
 - excluded Yahoo symbols (for example symbols with no usable history) are
   listed rather than treated as successful calls.
 
-The output workbook retains the prior opportunity-review sheets and adds the
-backtest summary, growth chart, daily NAV/cash/weight audit, and call-level
-quote/entry/expiry audit. `references/review_schema.md` contains the exact
-review schema and a compact command reference.
+The output workbook rebuilds the opportunity-review sheets from current state
+and adds the backtest summary, growth chart, daily NAV/cash/weight audit, and
+call-level quote/entry/expiry audit. `references/review_schema.md` contains the
+exact review schema and a compact command reference.

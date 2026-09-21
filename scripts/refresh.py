@@ -126,6 +126,16 @@ def main() -> None:
     candidate_path = state_dir / "candidate_review.json"
     if changed:
         run([sys.executable, str(extract), "--source-dir", str(source_dir), "--pending-review", str(pending_path), "--output", str(candidate_path)])
+    review_template_path = state_dir / "review_template.json"
+    if changed or removed:
+        review_template = {
+            "files": [
+                {"file": item["file"], "sha256": item["sha256"], "signals": []}
+                for item in changed
+            ],
+            "removed_files": removed,
+        }
+        review_template_path.write_text(json.dumps(review_template, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     review_file = Path(args.review_file).resolve() if args.review_file else None
     if (changed or removed) and review_file is None:
         print(json.dumps({
@@ -133,6 +143,7 @@ def main() -> None:
             "state_dir": str(state_dir),
             "pending_review": str(pending_path),
             "candidate_review": str(candidate_path) if changed else None,
+            "review_template": str(review_template_path) if (changed or removed) else None,
             "new_files": sum(item.get("status") == "new" for item in changed),
             "changed_files": sum(item.get("status") == "changed" for item in changed),
             "removed_files": len(removed),
@@ -141,6 +152,17 @@ def main() -> None:
         raise SystemExit(2)
 
     if review_file is not None:
+        review_payload = json.loads(review_file.read_text(encoding="utf-8"))
+        expected_files = {item["file"] for item in changed}
+        reviewed_files = {str(item.get("file", "")) for item in review_payload.get("files", [])}
+        if reviewed_files != expected_files:
+            missing = sorted(expected_files - reviewed_files)
+            extra = sorted(reviewed_files - expected_files)
+            raise RuntimeError(f"Review must include exactly the current changed files; missing={missing}, extra={extra}")
+        if set(review_payload.get("removed_files", [])) != set(removed):
+            raise RuntimeError(
+                f"Review removed_files must match pending_review.json; expected={sorted(removed)}, got={sorted(review_payload.get('removed_files', []))}"
+            )
         run([sys.executable, str(manage), "apply", "--source-dir", str(source_dir), "--state-dir", str(state_dir), "--review-file", str(review_file)])
         run([sys.executable, str(manage), "scan", "--source-dir", str(source_dir), "--state-dir", str(state_dir), "--output", str(pending_path)])
         pending = json.loads(pending_path.read_text(encoding="utf-8"))
@@ -180,6 +202,8 @@ def main() -> None:
         "backtest_json": str(backtest_json),
         "state_dir": str(state_dir),
         "candidate_review": str(candidate_path) if candidate_path.exists() else None,
+        "review_template": str(review_template_path) if review_template_path.exists() else None,
+        "reviewed_files": len(json.loads((state_dir / "reviewed_manifest.json").read_text(encoding="utf-8")).get("files", {})),
         "checks": parsed_backtest.get("checks") or parsed_build.get("checks"),
         "parameters": parsed_backtest.get("parameters"),
     }, indent=2))
